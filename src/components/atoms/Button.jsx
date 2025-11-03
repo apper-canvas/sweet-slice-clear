@@ -5,7 +5,9 @@ const Button = React.forwardRef(({
   className, 
   variant = "default", 
   size = "default", 
-  children, 
+  children,
+  asChild,
+  aschild,
   ...props 
 }, ref) => {
   const variants = {
